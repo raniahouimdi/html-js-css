@@ -1,0 +1,28 @@
+body{
+    background-color: cornsilk;
+}
+
+h1{
+    color: cornflowerblue;
+    text-align: center;
+    font-style: oblique;
+    text-shadow: 2px 2px rgb(53, 111, 121);
+}
+.btn{
+    border-radius: 50%;
+    position: relative;
+    background-color: chocolate;
+    font-size: 28px;
+    color: #FFFFFF;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #4CAF50;
+    color: white;
+}

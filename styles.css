@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #111927;
+}
+a {
+  color: #fff;
+}
+.header {
+  background-color: #111927;
+}
+.header .center {
+  max-width: 1300px;
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+.header .center a {
+  font-size: 12px;
+  line-height: 60px;
+  display: inline-block;
+  color: #a4b1cd;
+  margin-right: 40px;
+  font-weight: bold;
+  font-family: "neue-haas-unica",sans-serif;
+  letter-spacing: 2px;
+}
+.header .center a.sure {
+  color: #9fef00;
+}
+.header .center a.btn {
+  color: #9fef00;
+}
+.header .center a:hover {
+  color: #fff;
+}
+.logobar .center {
+  max-width: 1300px;
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+.logobar .center .logo {
+  width: 176px;
+  margin-top: 10px;
+  margin-right: 120px;
+}
+.logobar .center .conbox a {
+  font-size: 14px;
+  line-height: 56px;
+  padding-right: 90px;
+  color: #a4b1cd;
+  font-weight: bold;
+  height: 56px;
+  font-family: "neue-haas-unica",sans-serif;
+}
+.logobar .center .conbox a:hover {
+  color: #fff;
+}
+.logobar .center .fr {
+  color: #9fef00;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-right: 60px;
+  border: 1px solid #1a2332;
+  font: 12px "neue-haas-unica",sans-serif;
+  font-weight: bold;
+  padding: 20px 40px;
+  border-radius: 4px;
+  font-size: 12px;
+  margin-right: 60px;
+}
+.logobar .center .fr:hover {
+  background-color: #9fef00;
+  color: #fff;
+}
+.mainbox h1 {
+  margin-top: 120px;
+  font-size: 72px;
+  line-height: 80px;
+  text-align: center;
+  display: block;
+  color: #fff;
+}
+.mainbox .desc {
+  text-align: center;
+  color: #a4b1cd;
+  font-size: 18px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+.mainbox .inputline {
+  padding-bottom: 20px;
+}
+.mainbox .inputline input {
+  display: block;
+  margin: auto;
+  padding: 6px 12px 6px 16px;
+  box-sizing: border-box;
+  background-color: #1a2332;
+  padding-left: 30px;
+  box-sizing: border-box;
+  background-color: #1a2332;
+  color: #fff;
+  width: 440px;
+  height: 64px;
+  border-radius: 10px;
+  border: none;
+}
+.mainbox .box1 {
+  padding-bottom: 120px;
+}
+.mainbox .submit {
+  width: 440px;
+  font-size: 11px;
+  display: block;
+  margin: auto;
+  height: 64px;
+  font-size: 14px;
+  display: block;
+  margin: auto;
+  color: #141d2b;
+  background: #9fef00;
+  line-height: 64px;
+  text-align: center;
+  border-radius: 10px;
+  font-family: "neue-haas-unica",sans-serif;
+}
+.mainbox .box2 {
+  padding: 120px 0;
+}
+.mainbox .box2 img {
+  display: block;
+  margin: auto;
+}
+.mainbox .box2 .lefttxt {
+  padding-left: 60px;
+  box-sizing: border-box;
+}
+.mainbox .box2 .lefttxt .tit {
+  font-size: 40px;
+  color: #fff;
+  font-weight: bold;
+}
+.mainbox .box2 .lefttxt .desc {
+  text-align: left;
+}
+.mainbox .box2 .lefttxt a {
+  width: 160px;
+  margin: 24px 0px 0px;
+  font-size: 10px;
+  display: block;
+  background: #9fef00;
+  line-height: 64px;
+  text-align: center;
+  border-radius: 5px;
+  font-family: "neue-haas-unica",sans-serif;
+  height: 64px;
+  font-size: 14px;
+  display: block;
+  color: #141d2b;
+  background: #9fef00;
+  line-height: 64px;
+  text-align: center;
+  border-radius: 10px;
+}
+.footer {
+  width: 100%;
+  background: #111927;
+}
+.footer .content {
+  max-width: 1300px;
+  margin: auto;
+  display: block;
+}
+.footer .content .footline .fl:nth-child(1) {
+  padding-left: 30px;
+  box-sizing: border-box;
+}
+.footer .content .footline .fl:nth-child(1) > a:nth-child(1) {
+  margin-bottom: 30px;
+}
+.footer .content .footline .fl:nth-child(1) img {
+  padding: 0;
+}
+.footer .content .footline .fl:nth-child(1) a {
+  font-weight: bold;
+  padding: 0 0;
+  font-family: "neue-haas-unica",sans-serif;
+}
+.footer .content .footline .fl:nth-child(1) .sure {
+  color: #fff;
+}
+.footer .content .footline .fl:nth-child(1) .share {
+  margin-top: 30px;
+}
+.footer .content .linetxt {
+  text-align: center;
+  padding: 30px 0;
+  font-family: "neue-haas-unica",sans-serif;
+  text-align: center;
+  padding: 30px 0;
+}
+.footer .content .linetxt span {
+  color: #a4b1cd;
+  margin-right: 20px;
+}
+.footer .content .linetxt a {
+  color: #a4b1cd;
+  padding: 0 20px;
+  display: inline-block;
+}
+.footer .content .linetxt a:hover {
+  color: #fff;
+}
+.footer .content .footline > .fl {
+  width: 25%;
+}
+.footer .content .footline > .fl a:hover {
+  color: #fff;
+}
+.footer .content .footline > .fl .logo {
+  width: 180px;
+}
+.footer .content .footline > .fl p,
+.footer .content .footline > .fl a {
+  font-size: 14px;
+  line-height: 40px;
+  text-align: left;
+  display: block;
+  font-family: "neue-haas-unica",sans-serif;
+}
+.footer .content .footline > .fl .tit {
+  color: #fff;
+}
+.footer .content .footline > .fl a {
+  color: #a4b1cd;
+}
+ul,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+p,
+a {
+  text-decoration: none;
+  color: #333;
+}
+.fn-clear {
+  overflow: hidden;
+}
+.fn-clear .fl {
+  float: left;
+}
+.fn-clear .fr {
+  float: right;
+}
+.rightpng {
+  transform: rotate(7deg);
+}
+.box2 .content {
+  max-width: 1300px;
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+.box2 .content > .fl {
+  width: 50%;
+}
+.box2 .content > .fl img {
+  width: 80%;
+}
+.green {
+  color: #9fef00 
+}
